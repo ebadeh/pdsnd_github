@@ -15,3 +15,6 @@ It's important to give proper credit. Add links to any repo that inspired you or
 
 ### Security
 You need to mention the level of confidentiality of your modifications.
+
+### Environment
+Precise the configuration needed to execute the added parts.
