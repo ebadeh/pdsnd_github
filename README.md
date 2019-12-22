@@ -18,3 +18,6 @@ You need to mention the level of confidentiality of your modifications.
 
 ### Environment
 Precise the configuration needed to execute the added parts.
+
+### Social media
+Mention all social media which maybe impacted
