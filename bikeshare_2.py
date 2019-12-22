@@ -7,9 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 CITIES = ['chicago','new york city', 'washington']
-
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
-
 DAYS = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 
 def get_filters():
@@ -188,10 +186,10 @@ def user_stats(df):
     print('-'*40)
 
 def user_data_display(df):
-    longueur = df.shape[0]
+    length = df.shape[0]
 
     #showing 5 lines
-    for i in range(0, longueur, 5):
+    for i in range(0, length, 5):
         yes = input("Would you like to display the raw data for a particular trip? (Type 'yes' or 'no')\n").lower()
         if yes != 'yes':
             break
